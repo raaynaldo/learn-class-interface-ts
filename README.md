@@ -10,3 +10,4 @@ npm start
 - Public
 - Private
 - Protected
+- readonly
