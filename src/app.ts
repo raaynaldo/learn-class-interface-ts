@@ -82,7 +82,7 @@ console.log(it);
 
 const accounting = new AccountingDepartment('d2', []);
 
-accounting.mostRecentReport = 'hello';
+accounting.mostRecentReport = 'Hellooo';
 console.log(accounting.mostRecentReport);
 accounting.addReport('Someting went wrong...');
 
