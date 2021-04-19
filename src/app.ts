@@ -1,6 +1,9 @@
-interface Greetable {
+interface Named {
   readonly name: string;
+}
 
+//interface can inherit from another interface by put comma.
+interface Greetable extends Named {
   greet(phrase: string): void;
 }
 
